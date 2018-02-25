@@ -12,6 +12,7 @@ public class LinkedHashSetss {
         linkedHashSet.add("xyz");
         linkedHashSet.add("rty");
         linkedHashSet.add("a");
+        linkedHashSet.add("abc");
         System.out.println(linkedHashSet.size());
         System.out.println(linkedHashSet);
         for (Object o:linkedHashSet) {
