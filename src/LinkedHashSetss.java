@@ -2,6 +2,8 @@
  * Created by gnsad on 12/16/2017.
  */
 import java.util.*;
+
+//follow the insertion order
 public class LinkedHashSetss {
 
     public static void main(String[] args){
@@ -12,7 +14,7 @@ public class LinkedHashSetss {
         linkedHashSet.add("xyz");
         linkedHashSet.add("rty");
         linkedHashSet.add("a");
-        linkedHashSet.add("abc");
+        linkedHashSet.add("abc"); //duplicate element
         System.out.println(linkedHashSet.size());
         System.out.println(linkedHashSet);
         for (Object o:linkedHashSet) {
